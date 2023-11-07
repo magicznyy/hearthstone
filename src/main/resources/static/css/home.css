@@ -6,11 +6,25 @@ body {
 
 .card{
 width:10em;
-position: absolute;
+margin:-3em
 }
 
 .card img{
 width:100%;
+
+}
+
+.card img:hover{
+ margin-top: -5%;
+
+}
+
+.card:hover{
+border-radius: 10px;
+ background: rgba(204, 204, 204, 0.5);
+ z-index: 1;
+  position: relative;
+
 }
 
 #mainContainer{
